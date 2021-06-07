@@ -12,10 +12,10 @@ Proceso Ejercicio10Parte2
 		suma <- suma + num
 		Si (num%6) == 0 Entonces
 			multiplo6 <- multiplo6 + 1
-		SiNo
-			Si (num >= 1) & (num <= 10) Entonces
-				suma110 <- suma110 + num
-			FinSi
+		FinSi
+		
+		Si (num >= 1) & (num <= 10) Entonces
+			suma110 <- suma110 + num
 		FinSi
 	FinMientras
 	Escribir "De los numeros ingresados: ", multiplo6, " son multiplos de 6. Y La suma de los números que se encuentran entre el 1 y el 10 es: ", suma110
